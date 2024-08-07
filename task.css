@@ -1,0 +1,243 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+.one{
+    width: 15%;
+    height:100%;
+    padding: 20px;
+    position:fixed;
+    float: left;
+    background: black;
+    border: 2px solid rgb(32, 32, 32);
+    margin: 0%;
+}
+.one a{
+    color: white;
+    text-decoration: none;
+}
+.one h3 button{
+    margin: 0%;
+    background-color: black;
+    width: 98%;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+}
+.one h3 i{
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 20px;
+}
+.one h3 button:hover{
+    background-color: rgb(32, 32, 32);
+}
+.one button:active{
+    font: bold;
+}
+.two{
+    width: 57%;
+    float: left;
+    padding-left: 18%;
+    border: 2px solid rgb(32, 32, 32);
+    background: black;
+}
+.two .story .luffy{
+    margin-left: 100px;
+    float: left;
+}
+.two .story .zoro{
+    float: left;
+    margin-left: -25px;
+}
+.two .story .nami{
+    float: left;
+    margin-left: -25px;
+}
+.two .story .sogeking{
+    float: left;
+    margin-left: -25px;
+}
+.two .story .sanji{
+    float: left;
+    margin-left: -25px;
+}
+.two .story .chopper{
+    float: left;
+    margin-left: -25px;
+}
+.two .story .robin{
+    float: left;
+    margin-left: -25px;
+}
+.two .story .franky{
+    float: left;
+    margin-left: -25px;
+}
+.two .story img{
+    margin-left: 0px;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(44, 44, 44);
+}
+.two .posts{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.two .posts .luffydp img{
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(44, 44, 44);
+    
+}
+.two .posts #luffydp{
+    margin-top: -50px;
+    margin-left: 70px;
+    font: bold;
+}
+.two .posts #post img{
+    width: 480px;
+    margin-left: 26px;
+}
+.two .posts .reactions button{
+    margin-left: 13px;
+    font-size: 25px;
+    padding: 8px;
+    font:smaller;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.two .posts .reactions button:hover{
+    cursor: pointer;
+}
+.two .posts .reactions button:active{
+    
+}
+.two .posts p{
+    margin-top: -3px;
+    margin-left: 23px;
+}
+.two .posts .zorodp img{
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(44, 44, 44);
+    
+}
+.two .posts #zorodp{
+    margin-top: -50px;
+    margin-left: 70px;
+    font: bold;
+}
+.three{
+    width: 24.5%;
+    float: left;
+    background: black;
+    border: 2px solid rgb(32, 32, 32);
+}
+.sb{
+    width: 75%;
+    float: left;
+    padding-left: 18%;
+    border: 2px solid rgb(32, 32, 32);
+    background: black;
+    border: none;
+}
+.searchbox{
+    width: 600px;
+    background: black;
+    margin: 200px auto 0;
+    border-radius: 25px;
+    border: 2px solid grey;
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+.searchbox button{
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.searchbox button:hover{
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+input{
+    flex: 1;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: white;
+}
+.result-box ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.result-box ul li:hover{
+    background: rgb(32, 32, 32);
+}
+.Explore{
+    width: 75%;
+    float: left;
+    padding-left: 28%;
+    padding-right: 10%;
+    border: 2px solid rgb(32, 32, 32);
+    background: black;
+    border: none;
+
+}
+.Explore .col1{
+    width: 28%;
+    float: left;
+    margin: 0cap;
+}
+.Explore .col1 img{
+    width: 300px;
+}
+.Explore .col2 img{
+    width: 300px;
+}
+.Explore .col3 img{
+    width: 340px;
+}
+.Explore .col2{
+    width: 28%;
+    float: left;
+    margin-left: -14px;
+}
+.Explore .col3{
+    width: 28%;
+    float: left;
+    margin-left: -14px;
+}
+.sb .op1 img{
+    width: 600px;
+    float: left;
+    margin: 30px 100px 100px 100px;
+}
